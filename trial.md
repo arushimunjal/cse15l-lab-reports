@@ -2,7 +2,7 @@
 **Arushi**
 # Heading 1
 ## Heading 2
-[Link]https://ucsd-cse15l-s23.github.io/week/week1/
+[Link](https://ucsd-cse15l-s23.github.io/week/week1/)
 
 ![Image](https://ucsd-cse15l-s23.github.io/images/rulers.png)
 
