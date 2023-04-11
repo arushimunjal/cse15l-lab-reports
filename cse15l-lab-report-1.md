@@ -38,7 +38,7 @@ Step 5: Try to run some commands. Here are some examples:
 ![Image](https://github.com/arushimunjal/cse15l-lab-reports/blob/main/cat.png)
 
 
-> To log out of the remote server in your terminal, you can use:
+Step 6: To log out of the remote server in your terminal, you can use:
 
-> - Ctrl-D
-> - Run the command exit
+- Ctrl-D
+- Run the command exit
