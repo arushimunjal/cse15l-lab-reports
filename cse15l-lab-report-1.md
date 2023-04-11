@@ -36,3 +36,9 @@ Step 5: Try to run some commands. Here are some examples:
 2. `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` This will ...
 
 ![Image](https://github.com/arushimunjal/cse15l-lab-reports/blob/main/cat.png)
+
+
+> To log out of the remote server in your terminal, you can use:
+
+- Ctrl-D
+- Run the command exit
