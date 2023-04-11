@@ -25,7 +25,7 @@ Step 4: You will them be prompted to enter your username. If your password does 
 
 Step 5: Try to run some commands. Here are some examples:
 
-1. `pwd` This will ...
+1. `pwd` This will display the current working directory. `pwd` is an acronym for 'print working directory'.
 
 ![Image](https://github.com/arushimunjal/cse15l-lab-reports/blob/main/pwd.png)
 
@@ -33,7 +33,7 @@ Step 5: Try to run some commands. Here are some examples:
 
 ![Image](https://github.com/arushimunjal/cse15l-lab-reports/blob/main/ls%20-lat.png)
 
-2. `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` This will ...
+2. `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` The `cat` command prints the contents of the files given by the paths after the command. Therefore, this will print the contents of the hello.txt, which is "Hello!".
 
 ![Image](https://github.com/arushimunjal/cse15l-lab-reports/blob/main/cat.png)
 
