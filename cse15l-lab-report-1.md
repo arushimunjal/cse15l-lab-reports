@@ -23,4 +23,16 @@ Step 4: You will them be prompted to enter your username. If your password does 
 
 > Wait around 15 minutes for your password to be updated if you reset it.
 
-Step 5: 
+Step 5: Try to run some commands. Here are some examples:
+
+1. `pwd` This will ...
+
+![Image](https://github.com/arushimunjal/cse15l-lab-reports/blob/main/pwd.png)
+
+2. `ls -lat` This will ...
+
+![Image](https://github.com/arushimunjal/cse15l-lab-reports/blob/main/ls%20-lat.png)
+
+2. `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` This will ...
+
+![Image](https://github.com/arushimunjal/cse15l-lab-reports/blob/main/cat.png)
