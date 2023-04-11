@@ -7,7 +7,7 @@ Step 1: Install Visual Studio Code in order to use the terminal function.
 
 ![Image](https://github.com/arushimunjal/cse15l-lab-reports/blob/main/installl-vs-code.png)
 
-Step 2: Look up your course-specific account for CSE15L: [here](https://sdacs.ucsd.edu/~icc/index.php):
+Step 2: Look up your course-specific account for CSE15L [here](https://sdacs.ucsd.edu/~icc/index.php):
 
 Step 3. Open a terminal in VS Code. Type in the following command: `ssh cs15lsp23oi@ieng6.ucsd.edu`
 
