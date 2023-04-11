@@ -31,11 +31,11 @@ Arushi Munjal, Lab B03
 
 ![Image](pwd.png)
 
-2. `ls -lat` This will list all files starting with '.'
+2. `ls -lat` `ls` refers to 'list', and it will list all the files and folders in the path. This specific command will list all files starting with '.' 
 
 ![Image](ls%20-lat.png)
 
-3. `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` The `cat` command prints the contents of the files given by the paths after the command. Therefore, this will print the contents of the hello.txt, which is "Hello!".
+3. `cat /home/linux/ieng6/cs15lsp23/public/hello.txt` The `cat` command prints the contents of the files given by the paths after the command. Therefore, this specific command will print the contents of the hello.txt, which is "Hello!".
 
 ![Image](cat.png)
 
