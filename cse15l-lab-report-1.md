@@ -29,7 +29,7 @@ Step 5: Try to run some commands. Here are some examples:
 
 ![Image](pwd.png)
 
-2. `ls -lat` This will ...
+2. `ls -lat` This will list all files including hidden file starting with '.'
 
 ![Image](ls%20-lat.png)
 
