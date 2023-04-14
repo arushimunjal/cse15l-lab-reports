@@ -11,7 +11,7 @@ Arushi Munjal, Lab B03
 
 **Step 2: Look up your course-specific account for CSE15L [here](https://sdacs.ucsd.edu/~icc/index.php):**
 
-**Step 3. Open a terminal in VS Code. Type in the following command: `ssh cs15lsp23oi@ieng6.ucsd.edu`**
+**Step 3. Open a terminal in VS Code. Type in the following command: `ssh cs15lsp23oi@ieng6-202.ucsd.edu`**
 
 > Since this is the first time you connected to this server, you will likely recieve this message:
 
