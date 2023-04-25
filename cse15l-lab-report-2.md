@@ -48,7 +48,7 @@ class StringServer {
 
 ## Using /add-message:
 
-1. 
+1. Trial 1
 
 ![Image](serveroutput2.png)
 
@@ -57,7 +57,7 @@ class StringServer {
 - The value is changed after the request because the handleRequest method adds the message in the query to the `message` value.
 
 
-2. 
+2. Trial 2
 
 ![Image](serveroutput1.png)
 
