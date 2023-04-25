@@ -3,11 +3,13 @@ Arushi Munjal, Lab B03
 
 ---
 
-Part 1:
+# Part 1:
 
-Code for StringServer: ![Image](StringServer.png)
+## Code for StringServer: 
 
-Using /add-message:
+![Image](StringServer.png)
+
+## Using /add-message:
 
 1. 
 
@@ -26,9 +28,9 @@ Using /add-message:
 - The relevant argument is "Hello". The value of the field `message` is "Hello \n Hi \n".
 - The value is changed after the request because the handleRequest method adds the message in the query to the `message` value.
 
-Part 2:
+# Part 2:
 
-1. Example of a failure-inducing input for the reverseInPlace method:
+## 1. Example of a failure-inducing input for the reverseInPlace method:
 
 ```
   @Test 
@@ -44,7 +46,7 @@ Causes the following symptom:
 ![Image](output1.png)
 
 
-2. Example of input that doesn’t induce a failure for the reverseInPlace method:
+## 2. Example of input that doesn’t induce a failure for the reverseInPlace method:
 
 ```
   @Test 
@@ -60,7 +62,7 @@ Produces the following symptom, impying no failures induced:
 ![Image](output2.png)
 
 
-3. The bug, as the before-and-after code change required to fix it:
+## 3. The bug, as the before-and-after code change required to fix it:
 
 Before:
 
@@ -72,7 +74,7 @@ After:
 
 
 
-Part 3:
+# Part 3:
 
 Over the past two weeks, 
 
