@@ -16,7 +16,7 @@ Arushi Munjal, Lab B03
 ![Image](serveroutput2.png)
 
 - The handleRequest method is called, as it checks the path of the URL and returns messages after the = to the server.
-- The relevant argument is "Hi". The value of the field `message` is "Hello \n".
+- The relevant argument is "Hello". The value of the field `message` is "Hello \n".
 - The value is changed after the request because the handleRequest method adds the message in the query to the `message` value.
 
 
@@ -25,7 +25,7 @@ Arushi Munjal, Lab B03
 ![Image](serveroutput1.png)
 
 - The handleRequest method is called, as it checks the path of the URL and returns messages after the = to the server.
-- The relevant argument is "Hello". The value of the field `message` is "Hello \n Hi \n".
+- The relevant argument is "Hi". The value of the field `message` is "Hello \n Hi \n".
 - The value is changed after the request because the handleRequest method adds the message in the query to the `message` value.
 
 # Part 2:
