@@ -22,7 +22,7 @@ class Handler implements URLHandler {
         if (url.getPath().contains("/add-message")) {
             String[] parameters = url.getQuery().split("=");
             if (parameters[0].equals("s")) {
-                runningString += "\n" + parameters[1];
+                runningString += parameters[1] + "\n";
             }
         }
         return runningString;
