@@ -7,8 +7,6 @@ Arushi Munjal, Lab B03
 
 ## Code for StringServer: 
 
-![Image](StringServer.png)
-
 ```
 
 import java.io.IOException;
@@ -109,11 +107,11 @@ After:
 
 ![Image](goodcode.png)
 
+> The bug was that the code iterates up until the end of the array, rather than the middle of the array. This causes for the last half of the array to be overwritten with the reversed elements, which created merely a copy of the array rather than a reversed array. The fix was the iterate only to the middle of the array so that the entire array is properly reversed, as only the first half needs to be looped through for the entire array to be reversed. The fix addresses the issue because it creates a temp array to store the first half of the elements, swap them with the second half, and then store the temp array to the second half.
 
 
 # Part 3:
 
-Over the past two weeks, 
-
+Over the past two weeks, I have learned how to build and run a server, as well as implement code in order to change the output shown in the server. I found it very interesting to see how you can run the server on the local and remote computers and load other people's web pages too! I also learned about the importance of writing tester methods to check for bugs, and how it is important to identify the failure-inducing output, symptom, and bug when trying to fix the code.
 
 
