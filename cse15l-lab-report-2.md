@@ -7,20 +7,20 @@ Part 1:
 
 Code for StringServer:
 
-> import java.io.IOException;
-> import java.net.URI;
+import java.io.IOException;
+import java.net.URI;
 
-> class Handler implements URLHandler {
->     // The one bit of state on the server: a number that will be manipulated by
->     // various requests.
+class Handler implements URLHandler {
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.
 
->     String runningString = "";
+    String runningString = "";
 
->     public String handleRequest(URI url) {
->         if (url.getPath().contains("/add-message")) {
->             String[] parameters = url.getQuery().split("=");
->             if (parameters[0].equals("s")) {
->                 runningString += "\n" + parameters[1];
+    public String handleRequest(URI url) {
+        if (url.getPath().contains("/add-message")) {
+            String[] parameters = url.getQuery().split("=");
+            if (parameters[0].equals("s")) {
+                runningString += "\n" + parameters[1];
             }
         }
         return runningString;
