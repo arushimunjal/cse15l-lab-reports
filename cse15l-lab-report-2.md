@@ -3,7 +3,7 @@ Arushi Munjal, Lab B03
 
 ---
 
-**Part 1: **
+**Part 1:
 
 Code for StringServer: ![Image](StringServer.png)
 
@@ -26,7 +26,7 @@ Using /add-message:
 - The arguments are, and the values are.
 - The values change by.
 
-**Part 2: **
+**Part 2:
 
 
 
