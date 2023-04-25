@@ -101,11 +101,33 @@ Produces the following symptom, impying no failures induced:
 
 Before:
 
-![Image](badcode.png)
+```
+public class ArrayExamples {
+
+  // Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+  }
+}
+```
 
 After:
 
-![Image](goodcode.png)
+```
+public class ArrayExamples {
+
+  // Changes the input array to be in reversed order
+  static void reverseInPlace(int[] arr) {
+    for(int i = 0; i < arr.length / 2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+  }
+}
+```
 
 > The bug was that the code iterates up until the end of the array, rather than the middle of the array. This causes for the last half of the array to be overwritten with the reversed elements, which created merely a copy of the array rather than a reversed array. The fix was the iterate only to the middle of the array so that the entire array is properly reversed, as only the first half needs to be looped through for the entire array to be reversed. The fix addresses the issue because it creates a temp array to store the first half of the elements, swap them with the second half, and then store the temp array to the second half.
 
