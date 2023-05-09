@@ -3,7 +3,7 @@ Arushi Munjal, Lab B03
 
 ---
 
-I choose the <find> command, which is used for searching a folder hierarchy for filenames that meet a desired criteria. Here are four interesting command-line options for find:
+I choose the ***find*** command, which is used for searching a folder hierarchy for filenames that meet a desired criteria. Here are four interesting command-line options for find:
 
 1. **-type** : searches for files by their type. 
 
@@ -11,7 +11,7 @@ I choose the <find> command, which is used for searching a folder hierarchy for 
 find technical/ -type f -name "*.txt" 
 ```
 
-> This command searches for all regular files in the technical directory that have a .txt extension.
+> This command searches for all regular files in the technical directory that have a `.txt` extension.
 > Source:
 
 ```
