@@ -19,7 +19,7 @@ find technical/ -type d -name "*_files"
 
 > This command searches for all directories in the technical directory whose name ends with `_files`.
 
-2. **mtime** :  searches for files based on their modification time. [Source](https://www.computerhope.com/unix/ufind.htm)
+2. **mtime** :  searches for files based on their modification time: [Source](https://www.computerhope.com/unix/ufind.htm).
 
 ```
 find technical/ -mtime -7
