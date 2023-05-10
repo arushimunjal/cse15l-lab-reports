@@ -22,7 +22,7 @@ find technical/ -type d -name "*_files"
 2. **-mtime** :  searches for files based on their modification time. `-mtime +N` find the files that were last modified more than N days ago. `-mtime -N` find the files that were last modified less than N days ago. `-mtime N` find files that were last modified exactly N days ago - [source](https://www.computerhope.com/unix/ufind.htm).
 
 ```
-find technical/ -mtime -8
+find technical/ -mtime -7
 ```
 
 > This command searches for all files in the technical directory that were modified within the last 7 days. This command is useful for searching for altered files/directories from the previous week.
