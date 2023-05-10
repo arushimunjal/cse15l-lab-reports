@@ -33,7 +33,7 @@ find technical/ -mtime +10 -mtime -15
 
 > This command searches for all files in the technical directory that were modified between 10 and 15 days ago. This command is useful for finding files and directories that were modified within a certain range of time.
 
-3. **-user** name/ **-group** name : **-user** searches for files and directories owned by username or ID 'name'. **-group** searches for files and directories that belong to a particular group - [source](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/).
+3. **-user** name / **-group** name : **-user** searches for files and directories owned by username or ID 'name'. **-group** searches for files and directories that belong to a particular group - [source](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/).
 
 ```
 find technical/ -user arushi
