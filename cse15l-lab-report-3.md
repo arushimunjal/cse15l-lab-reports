@@ -5,13 +5,13 @@ Arushi Munjal, Lab B03
 
 I chose the ***find*** command, which is used for searching a folder hierarchy for filenames that meet a desired criteria. Here are four interesting command-line options for ***find***:
 
-1. **-type** : searches for files by their type. Source:
+1. **-type** : searches for files by their type. [Source](https://www.computerhope.com/unix/ufind.htm](https://unix.stackexchange.com/questions/483871/how-to-find-files-by-file-type).
 
 ```
 find technical/ -type f -name "*.txt" 
 ```
 
-> This command searches for all regular files in the technical directory that have a `.txt` extension.
+> This command searches for all files in the technical directory that have a `.txt` extension.
 
 ```
 find technical/ -type d -name "*_files" 
@@ -22,30 +22,30 @@ find technical/ -type d -name "*_files"
 2. **-mtime** :  searches for files based on their modification time: [Source](https://www.computerhope.com/unix/ufind.htm).
 
 ```
-find technical/ -mtime -7
+find technical/ -mtime -8
 ```
 
-> This command searches for all files in the technical directory that were modified within the last 7 days.
+> This command searches for all files in the technical directory that were modified within the last 8 days.
 
 ```
-find technical/ -mtime +30 -mtime -90
+find technical/ -mtime +10 -mtime -15
 ```
 
-> This command searches for all files in the technical directory that were modified between 30 and 90 days ago.
+> This command searches for all files in the technical directory that were modified between 10 and 15 days ago.
 
-3. **-user / -group**: 
-
-```
-find technical/ -user john
-```
-
-> This command searches for all files and directories in the technical/ directory that are owned by the user John.
+3. **-user name/ -group name** : -user searches for files and directories owned by username or ID 'name'. -group searches for files and directories that belong to a particular group. [Source](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/).
 
 ```
-find technical/ -group developers -name "*.py"
+find technical/ -user arushi
 ```
 
-> This command searches for all files in the technical/ directory that have a .py extension and are owned by the group developers.
+> This command searches for all files and directories in the technical directory that are owned by the user `arushi`.
+
+```
+find technical/ -group user -name "*.jpg"
+```
+
+> This command searches for all files in the technical directory that have a .jpg extension and are owned by the group `users`.
 
 
 4. **-printf**: . Source: 
