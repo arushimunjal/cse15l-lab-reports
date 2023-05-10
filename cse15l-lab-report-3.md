@@ -25,7 +25,7 @@ find technical/ -type d -name "*_files"
 find technical/ -mtime -8
 ```
 
-> This command searches for all files in the technical directory that were modified within the last 7 days. This command is useful for finding the files and directories that were modified within the last week.
+> This command searches for all files in the technical directory that were modified within the last 7 days. This command is useful for searching for altered files/directories from the previous week.
 
 ```
 find technical/ -mtime +10 -mtime -15
