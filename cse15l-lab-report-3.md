@@ -2,10 +2,13 @@
 Arushi Munjal, Lab B03
 
 ---
-I chose the ***find*** command, which is used for searching files and direcotries in a file system that meet a desired criteria. Here are four interesting command-line options for ***find***:
+I chose the ***find*** command, which is used for searching files and directories in a file system that meet a desired criteria. Here are four interesting command-line options for ***find***:
 
 1. **-type** : filters the search results based on the type of file or directory specificed by the command. `-type f` matches only regular files. `-type d` matches only directories. `-type l` matches only symbolic links. - [source](https://ss64.com/bash/find.html).
-2. ij
+
+iji 
+
+3. ij
 
 
 ```
