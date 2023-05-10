@@ -5,7 +5,7 @@ Arushi Munjal, Lab B03
 
 I chose the ***find*** command, which is used for searching a folder hierarchy for filenames that meet a desired criteria. Here are four interesting command-line options for ***find***:
 
-1. **-type** : searches for files by their type. [Source](https://www.computerhope.com/unix/ufind.htm](https://unix.stackexchange.com/questions/483871/how-to-find-files-by-file-type).
+1. **-type** : searches for files by their type. [Source](https://unix.stackexchange.com/questions/483871/how-to-find-files-by-file-type).
 
 ```
 find technical/ -type f -name "*.txt" 
