@@ -15,6 +15,10 @@ $ ssh cs15lsp23oi@ieng.ucsd.edu <enter>
 ![Image]()
   
 **Step 2: Clone your fork of the repository from your Github account.**
+
+```
+$ git clone https://github.com/ucsd-cse15l-s23/lab7
+```
   
 **Step 3: Run the tests, demonstrating that they fail.**
   
