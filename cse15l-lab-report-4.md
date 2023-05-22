@@ -31,7 +31,7 @@ $ <cd> <lab7> <enter>
 $ bash t <tab> <enter>
 ```
  
-![Image](step3.png)
+![Image](step3.1.png)
 
 > To run the tests, I used `ls` to find the files of the directory and `cd` to access and enter lab7. Then, I used <tab> to autocomplete `t` to become `test.sh`. `bash` ran the commands in the `test.sh` files.
   
