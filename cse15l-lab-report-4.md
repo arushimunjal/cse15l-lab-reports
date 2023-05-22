@@ -49,5 +49,13 @@ $ bash t <tab> <enter> n n n n n n n n n l l l l l r 2 <esc> :wq
 > To open the ListExamples java file, I typed vim because that is the text editor we need to edit the code file. I typed `L` and then `enter` in order to autocomplete it to `ListExamples`. I typed `.java` and `enter` to open the java code. Then, I typed `/index` which searches for the word `index` in the code. I typed `n` 9 times to find the nineth occurance of `index` in the file and `l` 5 times in order to move around 5 characters to the right. Then, I typed `r` ans `2` which changed `index1` to become `index2`, as `r` replaces a single character and I used it to replace `1` to `2`. Finally, I pressed `esp` to escape vim's insert mode and `:wq` to save the edits.
   
 **Step 5: Run the tests, demonstrating that they now succeed.**
+ 
+ ```
+$ bash t <tab> <enter>
+```
+ 
+![Image](step5.png)
+
+> To run the tests again after editing the code, I typed `bash t` and <tab> again to autocomplete `t` to `test.sh`.
   
 **Step 6: Commit and push the resulting change to your Github account .**
