@@ -11,7 +11,7 @@ find technical/ -type f -name "*.txt"
 ```
 Output:
 
-!![Image](ex1.1.png)
+![Image](ex1.1.png)
 
 > This command searches for all files in the technical directory that have a `.txt` extension. This command is useful for quickly locating all text *files* and perform further manipulation. It can help you understand the structure of the project or any gaps. The output shows that there are several `.txt` files in the docsearch directory.
 
@@ -20,7 +20,7 @@ find technical/ -type d -name "*_files"
 ```
 Output:
 
-!![Image](ex1.2.png)
+![Image](ex1.2.png)
 
 > This command searches for all directories in the technical directory whose name ends with `_files`. This command is useful for locating all *directories* in the technical directory that have a specific names in the file system. The output shows that there are no directories in docsearch that have an extension of _files.
 
