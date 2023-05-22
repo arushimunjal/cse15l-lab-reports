@@ -10,7 +10,7 @@ $ ssh cs15lsp23oi@ieng.ucsd.edu <enter>
 (cs15lsp23oi@ieng.ucsd.edu) Password: <paste password> <enter>
 ```
 
-> To access my log in details, I used `Control + C` and `Control V` from Lab Report 1. These steps allow me to log into my remote ieng6 account.
+> To access my log in details, I used `Control + C` and `Control V` on Lab Report 1. These steps allow me to log into my remote ieng6 account.
 
 ![Image]()
   
@@ -19,8 +19,16 @@ $ ssh cs15lsp23oi@ieng.ucsd.edu <enter>
 ```
 $ git clone https://github.com/ucsd-cse15l-s23/lab7
 ```
-  
+> To access the link of the repository, I used `Control + C` and `Control V`on Githhub. `git clone` clones the repository into my remote account.
+
+![Image]()
+
 **Step 3: Run the tests, demonstrating that they fail.**
+
+```
+$ <cd> <lab7> <enter>
+$ bash t <tab> <enter>Step
+```
   
 **Step 4: Edit the code file to fix the failing test.**
   
