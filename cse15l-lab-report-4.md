@@ -26,9 +26,14 @@ $ git clone https://github.com/ucsd-cse15l-s23/lab7
 **Step 3: Run the tests, demonstrating that they fail.**
 
 ```
+$ <ls>
 $ <cd> <lab7> <enter>
-$ bash t <tab> <enter>Step
+$ bash t <tab> <enter>
 ```
+
+![Image]()
+
+> To run the tests, I used `ls` to find the files of the directory and `cd` to access and enter lab7. Then, I used <tab> to autocomplete `t` to become `test.sh`. `bash` ran the commands in the `test.sh` files.
   
 **Step 4: Edit the code file to fix the failing test.**
   
