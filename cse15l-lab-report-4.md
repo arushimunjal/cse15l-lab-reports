@@ -38,7 +38,7 @@ $ bash t <tab> <enter>
 **Step 4: Edit the code file to fix the failing test.**
  
 ```
-$ vim L <tab>.java <enter>
+$ vim L<tab>.java <enter>
 $ /index1 <enter>
 $ bash t <tab> <enter> n n n n n n n n n l l l l l r 2 <esc> :wq
 ```
@@ -50,7 +50,7 @@ $ bash t <tab> <enter> n n n n n n n n n l l l l l r 2 <esc> :wq
   
 **Step 5: Run the tests, demonstrating that they now succeed.**
  
- ```
+```
 $ bash t <tab> <enter>
 ```
  
@@ -58,4 +58,14 @@ $ bash t <tab> <enter>
 
 > To run the tests again after editing the code, I typed `bash t` and <tab> again to autocomplete `t` to `test.sh`.
   
-**Step 6: Commit and push the resulting change to your Github account .**
+**Step 6: Commit and push the resulting change to your Github account.**
+ 
+```
+$ git add L<tab>.java <enter>
+$ git commit -m Done <enter>
+$ git push origin
+```
+ 
+![Image](step6.png)
+
+> I first used `git add` to add my change in the local working directory to the repository. I typed `L` and then `tab` to autocomplete `L` to `ListExamples`, and then added `.java`. Then, I used 'git commit -m' to commit the staged files and `Done` after as my comment that describes the intention of the commit. Lastly, I typed `git push origin` to finally push/upload the local branch to the repository.
