@@ -27,7 +27,7 @@ $ git clone https://github.com/ucsd-cse15l-s23/lab7
 
 ```
 $ <ls>
-$ <cd> <lab7> <enter>
+$ <cd> lab7 <enter>
 $ bash t <tab> <enter>
 ```
  
