@@ -35,7 +35,7 @@ find ./technical -mtime -7
 Output:
 ![Image](ex2.1.png)
 
-> This command searches for all files in the technical directory that were modified within the last 7 days. This command is useful for searching for altered files/directories from the previous week, as shown in the output/
+> This command searches for all files in the technical directory that were modified within the last 7 days. This command is useful for searching for altered files/directories from the previous week. The output shows that most files were edited in the past week.
 
 ```
 find technical/ -mtime +10 -mtime -15
