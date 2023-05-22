@@ -47,13 +47,16 @@ find technical/ -mtime +10 -mtime -15
 3. **-name* "word" : **-name** searches for files and directories that contain the word "word" in the file - [source](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/).
 
 ```
-find ./technical -name "chapter"
+find ./technical -name "biomed"
 ```
 
-> This command searches for all files and directories in the technical directory that contain the word "chapter". In. this case, this command is useful for locating all files and directories in the `911report` directory that correlate to chapters of the report 
+Output:
+![Image](ex3.1.png)
+
+> This command searches for all files and directories in the technical directory that contain the word "biomed". In. this case, this command is useful for locating the subdirectory of /technical that relate to `biomed`. The output shows that there is 1 directory that contains the word `biomed`.
 
 ```
-find ./technical -group user -name "*s"
+find ./technical -name "*s"
 ```
 
 > This command searches for all files in the technical directory that end in "s" inside the ./technical directory. The command can be useful for finding specific names, such as plural in this case. You can also search files that end in numbers or special characters to make it easier to find unique files.
