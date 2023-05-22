@@ -68,4 +68,4 @@ $ git push origin
  
 ![Image](step6.png)
 
-> I first used `git add` to add my change in the local working directory to the repository. I typed `L` and then `tab` to autocomplete `L` to `ListExamples`, and then added `.java`. Then, I used 'git commit -m' to commit the staged files and `Done` after as my comment that describes the intention of the commit. Lastly, I typed `git push origin` to finally push/upload the local branch to the repository.
+> I first used `git add` to add my change in the local working directory to the repository. I typed `L` and then `tab` to autocomplete `L` to `ListExamples`, and then added `.java`. Then, I used `git commit -m` to commit the staged files and `Done` after as my comment that describes the intention of the commit. Lastly, I typed `git push origin` to finally push/upload the local branch to the repository.
