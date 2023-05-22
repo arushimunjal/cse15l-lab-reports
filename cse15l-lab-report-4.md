@@ -10,6 +10,8 @@ $ ssh cs15lsp23oi@ieng.ucsd.edu <enter>
 (cs15lsp23oi@ieng.ucsd.edu) Password: <paste password> <enter>
 ```
 
+> To access my log in details, I used `Control + C` and `Control V` from Lab Report 1. These steps allow me to log into my remote ieng6 account.
+
 ![Image]()
   
 **Step 2: Clone your fork of the repository from your Github account.**
