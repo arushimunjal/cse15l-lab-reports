@@ -21,7 +21,7 @@ $ git clone https://github.com/ucsd-cse15l-s23/lab7
 ```
 > To access the link of the repository, I used `Control + C` and `Control V`on Githhub. `git clone` clones the repository into my remote account.
 
-![Image]()
+![Image](step2.png)
 
 **Step 3: Run the tests, demonstrating that they fail.**
 
@@ -31,7 +31,7 @@ $ <cd> <lab7> <enter>
 $ bash t <tab> <enter>
 ```
 
-![Image]()
+![Image](step3.png)
 
 > To run the tests, I used `ls` to find the files of the directory and `cd` to access and enter lab7. Then, I used <tab> to autocomplete `t` to become `test.sh`. `bash` ran the commands in the `test.sh` files.
   
