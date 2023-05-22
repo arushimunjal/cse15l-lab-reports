@@ -38,10 +38,13 @@ Output:
 > This command searches for all files in the technical directory that were modified within the last 7 days. This command is useful for searching for altered files/directories from the previous week. The output shows that most files were edited in the past week.
 
 ```
-find technical/ -mtime +10 -mtime -15
+find ./technical -mtime +10 -mtime -15
 ```
 
-> This command searches for all files in the technical directory that were modified between 10 and 15 days ago. This command is useful for finding files and directories that were modified within a certain range of time.
+Output:
+![Image](ex2.2.png)
+
+> This command searches for all files in the technical directory that were modified between 10 and 15 days ago. This command is useful for finding files and directories that were modified within a certain range of time. The output shows that there are no files that were modified within this range. This is because the repo was recently forked, but this command would be helpful in other cases that have an olde4r directory.
 
 
 3. **-name* "word" : **-name** searches for files and directories that contain the word "word" in the file - [source](https://www.geeksforgeeks.org/find-command-in-linux-with-examples/).
@@ -59,21 +62,27 @@ Output:
 find ./technical -name "*s"
 ```
 
-> This command searches for all files in the technical directory that end in "s" inside the ./technical directory. The command can be useful for finding specific names, such as plural in this case. You can also search files that end in numbers or special characters to make it easier to find unique files.
-
 Output:
 ![Image](ex3.2.png)
+
+> This command searches for all files in the technical directory that end in "s" inside the ./technical directory. The command in this case can be useful for finding specific names, such as plural (shown in the output). You can also search files that end in numbers or special characters to make it easier to find unique files.
 
 4. **-delete** : deletes the files and directories that you specify after the command - [source](https://www.computerhope.com/unix/ufind.htm).
 
 ```
-find /technical -type f -name "*.txt" -delete
+find ./technical  -delete
 ```
+
+Output:
+![Image](ex4.1.png)
 
 > This command searches for all files (using `-type f` option) in the technical directory that end with the .txt extension (using `-name "*.txt` option), and then deletes them using the `-delete` option. This command is useful for automating the processes of deleting a certain set of files. 
 
 ```
-find /technical -user tanisha -delete
+find ./technical -type f -name "*.txt" -delete
 ```
+
+Output:
+![Image](ex4.2.png)
 
 > This command searches for all files and directories in the technical directory and its subdirectories that are owned by user tanisha using the `-user tanisha` option, and then deletes them using the `-delete` option. This command can be useful to remove all files and directories owned by a specific user. To only delete empty files, type `find /technical -type d -user tanisha -empty -delete ` instead.
