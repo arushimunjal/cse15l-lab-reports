@@ -9,14 +9,20 @@ I chose the ***find*** command, which is used for searching files and directorie
 ```
 find technical/ -type f -name "*.txt" 
 ```
+Output:
 
-> This command searches for all files in the technical directory that have a `.txt` extension. This command is useful for quickly locating all text *files* and perform further manipulation. It can help you understand the structure of the project or any gaps.
+!![Image](ex1.1.png)
+
+> This command searches for all files in the technical directory that have a `.txt` extension. This command is useful for quickly locating all text *files* and perform further manipulation. It can help you understand the structure of the project or any gaps. The output shows that there are several `.txt` files in the docsearch directory.
 
 ```
 find technical/ -type d -name "*_files" 
 ```
+Output:
 
-> This command searches for all directories in the technical directory whose name ends with `_files`. This command is useful for locating all *directories* in the technical directory that have a specific names in the file system.
+!![Image](ex1.2.png)
+
+> This command searches for all directories in the technical directory whose name ends with `_files`. This command is useful for locating all *directories* in the technical directory that have a specific names in the file system. The output shows that there are no directories in docsearch that have an extension of _files.
 
 
 2. **-mtime** :  searches for files based on their modification time. `-mtime +N` find the files that were last modified more than N days ago. `-mtime -N` find the files that were last modified less than N days ago. `-mtime N` find files that were last modified exactly N days ago - [source](https://www.computerhope.com/unix/ufind.htm).
