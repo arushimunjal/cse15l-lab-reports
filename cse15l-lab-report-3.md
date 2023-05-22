@@ -65,18 +65,18 @@ find ./technical -name "*s"
 Output:
 ![Image](ex3.2.png)
 
-> This command searches for all files in the technical directory that end in "s" inside the ./technical directory. The command in this case can be useful for finding specific names, such as plural (shown in the output). You can also search files that end in numbers or special characters to make it easier to find unique files.
+> This command searches for all files in the technical directory that end in "s" inside the ./technical directory (* searches for the end specifically). The command in this case can be useful for finding specific names, such as plural (shown in the output). You can also search files that end in numbers or special characters to make it easier to find unique files.
 
 4. **-delete** : deletes the files and directories that you specify after the command - [source](https://www.computerhope.com/unix/ufind.htm).
 
 ```
-find ./technical  -delete
+find ./technical -name "*s" -type f -delete
 ```
 
 Output:
 ![Image](ex4.1.png)
 
-> This command searches for all files (using `-type f` option) in the technical directory that end with the .txt extension (using `-name "*.txt` option), and then deletes them using the `-delete` option. This command is useful for automating the processes of deleting a certain set of files. 
+> This command searches for all files (using `-type f` option) in the technical directory that end with the "s" (using `-name "*.s` option), and then deletes them using the `-delete` option. This command is useful for automating the processes of deleting a certain set of files. The output shows that if we use the command `find ./technical -name "*s"` from example 3, there are 2 files that correlate to this search: ./technical/government/Alcohol-Problems and ./technical/plos. After using this command to delete those files, we can use the command from example 3 once again, which shows that those files do not exist anymore.
 
 ```
 find ./technical -type f -name "*.txt" -delete
@@ -85,4 +85,4 @@ find ./technical -type f -name "*.txt" -delete
 Output:
 ![Image](ex4.2.png)
 
-> This command searches for all files and directories in the technical directory and its subdirectories that are owned by user tanisha using the `-user tanisha` option, and then deletes them using the `-delete` option. This command can be useful to remove all files and directories owned by a specific user. To only delete empty files, type `find /technical -type d -user tanisha -empty -delete ` instead.
+> This command searches for all files in the technical directory that have a `.txt` extension. and then deletes them using the `-delete` option. This command can be useful to remove all files and directories that are a certain type. The output shows that if we use the command `find ./technical -type f -name "*.txt" ` from example 1, there are several, if not all, files that correlate to this search. After using this command to delete those files, we can use the command from example 1 once again, which shows that those files do not exist anymore.
