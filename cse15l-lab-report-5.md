@@ -27,13 +27,15 @@ I think you are on the right track, but should review whether all values of the 
 # Part 3: New Student Output
 
 New code:
+
 ![Image](https://github.com/arushimunjal/cse15l-lab-reports/assets/127368251/e63f8c10-8bde-4df4-8723-3e7b5747cf46)
 
 New output:
+
 ![Image](https://github.com/arushimunjal/cse15l-lab-reports/assets/127368251/e64f3964-2e44-4bd6-a474-3be0688b0bb4)
 
 ```
-The TA's response helped me understand that the previos code overwrites the original value at arr[i] without correctly reversing the elements, since the for loop traverses through the entire array. Instead, the loop should traverse to ensure that the swapping operation only occurs up to the midpoint of the array. Swapping elements beyond the middle point would result in reversing the elements back to their original order. Also, a temporary variable should be added to the code in order to hold the original value of arr[i] before swapping the elements.
+The TA's response helped me understand that the previous code overwrites the original value at arr[i] without correctly reversing the elements, since the for loop traverses through the entire array. Instead, the loop should traverse to ensure that the swapping operation only occurs up to the midpoint of the array. Swapping elements beyond the middle point would result in reversing the elements back to their original order. Also, a temporary variable should be added to the code in order to hold the original value of arr[i] before swapping the elements.
 
 ```
 
