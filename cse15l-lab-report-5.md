@@ -67,4 +67,4 @@ The bug in this scenario is that the reverseInPlace method incorrectly assigns t
 
 # Part 5: End of the Year Reflection
 
-
+Thank you so much for holding a great quarter of CSE 15L. I learned so much throughout this course and believe I understand the necessary skills of bash, vim, debugging, and moving throughout my directories. I think the most valuable skill I learned what `cd` and `ls` because I now use them so often outside of this class, especially in CSE 12. I also found commands like `find` and `grep` to be very helpful, as they reduce my time searching for certain things and allow me to be a faster coder.
