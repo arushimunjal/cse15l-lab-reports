@@ -39,8 +39,7 @@ $ bash t <tab> <enter>
  
 ```
 $ vim L<tab>.java <enter>
-$ /index1 <enter>
-$ bash t <tab> <enter> n n n n n n n n n l l l l l r 2 <esc> :wq
+$ /index1 <enter> n n n n n n n n n l l l l l r 2 <esc> :wq
 ```
  
 ![Image](step4.1.png)
