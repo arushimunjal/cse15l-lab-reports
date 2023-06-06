@@ -53,7 +53,7 @@ Contents of Each File Before Fixing the Bug:
 
 2. ArrayTests.java ![Image](https://github.com/arushimunjal/cse15l-lab-reports/assets/127368251/6b02426e-910b-4622-aa94-65b3217c117a)
 
-3. testArrayExamples.sh ![Image]("https://github.com/arushimunjal/cse15l-lab-reports/assets/127368251/e9948f5a-5cc6-456f-98f1-7bff456e1f20)
+3. testArrayExamples.sh ![Image](https://github.com/arushimunjal/cse15l-lab-reports/assets/127368251/e9948f5a-5cc6-456f-98f1-7bff456e1f20)
 
 
 Full Command Line to Trigger the Bug: `bash testArrayExamples.sh`
