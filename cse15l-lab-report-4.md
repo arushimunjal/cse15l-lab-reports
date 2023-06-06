@@ -6,7 +6,7 @@ Arushi Munjal, Lab B03
 **Step 1: Log into ieng6.**
 
 ```
-$ ssh cs15lsp23oi@ieng.ucsd.edu <enter>
+$ ssh cs15lsp23oi@ieng6.ucsd.edu <enter>
 (cs15lsp23oi@ieng.ucsd.edu) Password: <paste password> <enter>
 ```
 
