@@ -60,11 +60,15 @@ $ bash t <tab> <enter>
 **Step 6: Commit and push the resulting change to your Github account.**
  
 ```
+$ git status
 $ git add L<tab>.java <enter>
 $ git commit -m Done <enter>
-$ git push origin
+$ git push origin main
+$ git status
 ```
  
-![Image](step6.png)
+![Image](https://github.com/arushimunjal/cse15l-lab-reports/assets/127368251/48f4b8a1-e3af-4383-a84b-4141ce201968)
 
-> I first used `git add` to add my change in the local working directory to the repository. I typed `L` and then `tab` to autocomplete `L` to `ListExamples`, and then added `.java`. Then, I used `git commit -m` to commit the staged files and `Done` after as my comment that describes the intention of the commit. Lastly, I typed `git push origin` to finally push/upload the local branch to the repository.
+
+
+> I first used `git status` to check the state of the workinng direcotry and the staging area. Then, I used `git add ListExamples.java` to add my change in the local working directory to the repository. I typed `L` and then `tab` to autocomplete `L` to `ListExamples`, and then added `.java`. Then, I used `git commit -m` to commit the staged files and `done` after as my comment that describes the intention of the commit. I typed `git push origin` to finally push/upload the local branch to the repository. Lastly, I typed `git status` once again to check the status of the repo after comminiting the change and to ensure that the git push succeeded.
