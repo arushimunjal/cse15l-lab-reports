@@ -16,13 +16,10 @@ Arushi Munjal, Lab B03
 
 # Part 2: TA Response
 
-```
-
 Hi, have you considered whether the elements are being properly swapped during the reverse operation? What happens to the values in the array when arr[i] is assigned arr[arr.length - i - 1] in each iteration?
 
 I think you are on the right track, but should review whether all values of the array need to be swapped, or only a certain amount. Hint: if you swap the entire array, it will end in the original array.
 
-```
 
 # Part 3: New Student Output
 
@@ -34,10 +31,9 @@ New output:
 
 ![Image](https://github.com/arushimunjal/cse15l-lab-reports/assets/127368251/e64f3964-2e44-4bd6-a474-3be0688b0bb4)
 
-```
+
 The TA's response helped me understand that the previous code overwrites the original value at arr[i] without correctly reversing the elements, since the for loop traverses through the entire array. Instead, the loop should traverse to ensure that the swapping operation only occurs up to the midpoint of the array. Swapping elements beyond the middle point would result in reversing the elements back to their original order. Also, a temporary variable should be added to the code in order to hold the original value of arr[i] before swapping the elements.
 
-```
 
 # Part 4: SetUp Information
 
