@@ -1,4 +1,4 @@
-# Lab Report 2 - Debugging Scenario
+# Lab Report 5 - Debugging Scenario
 Arushi Munjal, Lab B03
 
 ---
