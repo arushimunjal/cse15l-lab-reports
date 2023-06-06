@@ -41,13 +41,13 @@ The TA's response helped me understand that the previous code overwrites the ori
 
 # Part 4: SetUp Information
 
-File and Directory Stucture:
+**File and Directory Stucture:
 
 1. Directory: lab3
 2. Java file: ArrayExamples.java and ArrayTests.java
 3. Bash file: testArrayExamples.sh
 
-Contents of Each File Before Fixing the Bug:
+**Contents of Each File Before Fixing the Bug:
 
 1. ArrayExamples.java ![Image](https://github.com/arushimunjal/cse15l-lab-reports/assets/127368251/d4c40a31-f206-4b14-9879-b6e7ffd38433)
 
@@ -56,12 +56,12 @@ Contents of Each File Before Fixing the Bug:
 3. testArrayExamples.sh ![Image](https://github.com/arushimunjal/cse15l-lab-reports/assets/127368251/e9948f5a-5cc6-456f-98f1-7bff456e1f20)
 
 
-Full Command Line to Trigger the Bug: `bash testArrayExamples.sh`
+**Full Command Line to Trigger the Bug: `bash testArrayExamples.sh`
 
 ![Image](https://github.com/arushimunjal/cse15l-lab-reports/assets/127368251/76accf61-b41a-4622-b079-ca81b88e65e8)
 
 
-Description of the Bug and Solution:
+**Description of the Bug and Solution:
 
 The bug in this scenario is that the reverseInPlace method incorrectly assigns the values from the end of the array to each element in a sequential manner without preserving the original values. As a result, the array does not get reversed as intended. To fix the bug, you need to traverse only the first half of the array, rather than the entire array. Also, you must introduce a temporary variable to hold the original value of arr[i] before swapping the elements. This ensures that the original values are preserved during the reverse operation.
 
