@@ -17,7 +17,7 @@ $ ssh cs15lsp23oi@ieng.ucsd.edu <enter>
 **Step 2: Clone your fork of the repository from your Github account.**
 
 ```
-$ git clone https://github.com/ucsd-cse15l-s23/lab7
+$ git clone https://github.com/arushimunjal/lab7
 ```
 > To access the link of the repository, I opened the link from the lab7 instructions and forked it on Github. Then, I cloned it in my terminal by using `git clone`, which clones the lab7 repository into my remote account.
 
